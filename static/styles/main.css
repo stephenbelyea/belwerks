@@ -1,0 +1,15 @@
+body {
+  min-height: 100vh;
+  width: 100vw;
+  font-family: var(--font-family);
+  font-weight: var(--font-weight-normal);
+  font-style: normal;
+  font-size: 1.15rem;
+  line-height: 1.5;
+}
+
+.wrap {
+  width: 90vw;
+  max-width: 40rem;
+  margin: 0 auto;
+}

@@ -10,4 +10,14 @@
   --color-red-dark: #6c0d15;
   --color-body: #3f3636;
   --color-body-dark: #240404;
+  --color-body-light: #867b7b;
+  --color-white: #fff;
+
+  --color-item-bg-light: rgba(63, 54, 54, 0.85);
+  --color-item-bg-dark: rgba(36, 4, 4, 0.96);
+
+  --text-shadow: 0.075em 0.075em 0.1em var(--color-body);
+
+  --items-gap: 1.75rem;
+  --items-flex: 0 0 calc(50% - var(--items-gap));
 }

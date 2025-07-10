@@ -11,20 +11,23 @@ body {
 
 .wrap {
   width: 86vw;
-  max-width: 40rem;
+  max-width: 42rem;
   margin: 0 auto;
 }
 
 a,
 button,
-.normal {
+.normal,
+footer {
   font-weight: var(--font-weight-normal);
 }
 
 h1,
 h2,
 h3,
-strong {
+h3 a,
+strong,
+.tags {
   font-weight: var(--font-weight-bold);
 }
 
@@ -55,7 +58,7 @@ h2 {
 }
 
 h3 {
-  font-size: 1.225rem;
+  font-size: 1.175rem;
 }
 
 small {
@@ -88,6 +91,11 @@ img {
     font-size: 1.35rem;
     line-height: 1.35;
   }
+}
+
+footer {
+  text-align: center;
+  padding: 1rem 0 1.5rem;
 }
 
 @media screen and (max-width: 665px) {

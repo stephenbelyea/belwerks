@@ -15,9 +15,13 @@
 
   --color-item-bg-light: rgba(63, 54, 54, 0.85);
   --color-item-bg-dark: rgba(36, 4, 4, 0.96);
+  --color-item-shadow: rgba(63, 54, 54, 0.15);
+
+  --color-link-outline: rgba(63, 54, 54, 0.85);
 
   --text-shadow: 0.075em 0.075em 0.1em var(--color-body);
 
-  --items-gap: 1.75rem;
+  --items-gap: 2rem;
   --items-flex: 0 0 calc(50% - var(--items-gap));
+  --items-border: solid 0.05rem var(--color-body);
 }

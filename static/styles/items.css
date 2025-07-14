@@ -11,10 +11,11 @@
   flex: var(--items-flex);
   position: relative;
   font-size: 0.95rem;
-  border: solid 0.05rem var(--color-body);
+  border: var(--items-border);
   overflow: hidden;
   border-radius: 0.25rem;
   outline-offset: 0.15em;
+  box-shadow: 0.1rem 0.1rem 0.35rem 0 var(--color-item-shadow);
 
   p,
   h3 {
@@ -22,7 +23,7 @@
   }
 
   &:focus-within {
-    outline: solid 0.175em var(--color-item-bg-light);
+    outline: solid 0.175em var(--color-link-outline);
 
     a {
       text-decoration: underline;
@@ -36,8 +37,8 @@
     background: var(--color-red);
     color: var(--color-white);
     padding: 0.5em 0.75rem;
-    border-bottom: solid 0.1em var(--color-body);
-    border-right: solid 0.1em var(--color-body);
+    border-bottom: var(--items-border);
+    border-right: var(--items-border);
     border-bottom-right-radius: 0.15em;
     text-transform: uppercase;
     font-size: 0.75em;
@@ -63,7 +64,7 @@
       padding: 0.5rem 0.75rem;
       background-color: var(--color-item-bg-light);
       text-shadow: var(--text-shadow);
-      border-bottom: solid 0.1em var(--color-body);
+      border-bottom: var(--items-border);
       transition: background-color 200ms, min-height 200ms;
     }
   }
@@ -81,12 +82,25 @@
   }
 }
 
-.item.pokeball a {
-  background-image: url(../images/item-pokeball.png);
+.item.heynova-blog a {
+  background-image: url(../images/item-heynova-blog.png);
 }
 .item.grid-grid a {
   background-image: url(../images/item-grid-grid.png);
 }
 .item.grid-flexbox a {
   background-image: url(../images/item-grid-flexbox.png);
+}
+.item.pokeball a {
+  background-image: url(../images/item-pokeball.png);
+}
+
+@media screen and (max-width: 665px) {
+  .items {
+    gap: 2.5rem;
+    justify-content: center;
+  }
+  .item {
+    flex: 0 1 22rem;
+  }
 }

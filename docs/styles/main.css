@@ -122,6 +122,22 @@ section {
   }
 }
 
+a {
+  color: var(--color-red);
+  transition: color 200ms;
+  outline-offset: 0.25em;
+  border-radius: 0.1em;
+}
+
+a:focus,
+a:hover {
+  color: var(--color-red-dark);
+}
+
+a:focus {
+  outline: solid 0.15em var(--color-link-outline);
+}
+
 .links {
   list-style: none;
   margin: 1rem 0 1.75rem;
@@ -129,19 +145,6 @@ section {
   justify-content: flex-start;
   gap: 1.5rem;
   flex-wrap: wrap;
-
-  a {
-    color: var(--color-red);
-    transition: color 200ms;
-    outline-offset: 0.25em;
-    border-radius: 0.1em;
-  }
-
-  a:focus,
-  a:hover {
-    color: var(--color-red-dark);
-    outline: solid 0.15em var(--color-link-outline);
-  }
 }
 
 footer {

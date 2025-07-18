@@ -45,12 +45,12 @@
     letter-spacing: 0.075em;
   }
 
-  a {
+  h3 a {
     display: flex;
     align-content: flex-end;
     aspect-ratio: 1.65/1;
     display: block;
-    background-position: center;
+    background-position: top center;
     background-size: cover;
     background-color: var(--color-red-dark);
     text-decoration: none;
@@ -69,8 +69,8 @@
     }
   }
 
-  a:hover,
-  a:focus {
+  h3 a:hover,
+  h3 a:focus {
     span {
       min-height: 50%;
       background-color: var(--color-item-bg-dark);
@@ -82,17 +82,28 @@
   }
 }
 
-.item.heynova-blog a {
-  background-image: url(../images/item-heynova-blog.png);
-}
-.item.grid-grid a {
-  background-image: url(../images/item-grid-grid.png);
-}
-.item.grid-flexbox a {
-  background-image: url(../images/item-grid-flexbox.png);
-}
-.item.pokeball a {
-  background-image: url(../images/item-pokeball.png);
+.item {
+  &.scatterbrain h3 a {
+    background-image: url(../images/item-scatterbrain.png);
+  }
+  &.table-api h3 a {
+    background-image: url(../images/item-table-api.png);
+  }
+  &.heynova-blog h3 a {
+    background-image: url(../images/item-heynova-blog.png);
+  }
+  &.whats-up h3 a {
+    background-image: url(../images/item-whats-up.png);
+  }
+  &.grid-grid h3 a {
+    background-image: url(../images/item-grid-grid.png);
+  }
+  &.grid-flexbox h3 a {
+    background-image: url(../images/item-grid-flexbox.png);
+  }
+  &.pokeball h3 a {
+    background-image: url(../images/item-pokeball.png);
+  }
 }
 
 @media screen and (max-width: 665px) {

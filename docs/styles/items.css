@@ -115,3 +115,23 @@
     flex: 0 1 22rem;
   }
 }
+
+@media screen and (min-width: 850px) {
+  .items {
+    width: 86vw;
+    margin-left: calc(calc(43vw - 23rem) * -1);
+  }
+}
+
+@media screen and (min-width: 1025px) {
+  .item {
+    flex: var(--items-flex-lg);
+  }
+}
+
+@media screen and (min-width: 1400px) {
+  .items {
+    width: 75rem;
+    margin-left: calc(calc(37.5rem - 23rem) * -1);
+  }
+}

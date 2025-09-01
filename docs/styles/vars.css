@@ -23,5 +23,6 @@
 
   --items-gap: 2rem;
   --items-flex: 0 0 calc(50% - var(--items-gap));
+  --items-flex-lg: 0 0 calc(calc(100% / 3) - var(--items-gap));
   --items-border: solid 0.05rem var(--color-body);
 }

@@ -22,6 +22,27 @@
       "desc": "Multiple accessibility-focused blog posts written for Hey Nova agency over multiple years, before and during period of working on the team."
     },
     {
+      "id": "sensory-filter",
+      "tags": ["Personal Project"],
+      "link": "https://codepen.io/belwerks/pen/abryeKQ",
+      "title": "Sensory Filtering and Focus",
+      "desc": "Text and visual diagram to illustrate the incoming stimuli and brain's filtering abilities for neuro-typical and neuro-divergent brains in various states. Choose the brain type and focus mode to see each state."
+    },
+    {
+      "id": "whats-up",
+      "tags": ["Personal Project"],
+      "link": "https://github.com/stephenbelyea/whats-up",
+      "title": "What's Up Mini App",
+      "desc": "Single-page reference to collect listings of multiple events venues around Kitchener-Waterloo for the current date. Many links have changed formatting, but you can still check out the GitHub Pages static site from the repo."
+    },
+    {
+      "id": "a11y-important",
+      "tags": ["Writing"],
+      "link": "https://medium.com/healthhub-design/why-is-accessibility-important-part-1-d78a23a2bfef",
+      "title": "'Why is a11y important?' Blog Post",
+      "desc": "Detailed 3-part blog post responding to the all-too-common question of why accessibility is important - both on the web and in the physical world. Written while working on a design team and fielding general a11y questions from developers."
+    },
+    {
       "id": "grid-grid",
       "tags": ["Prototype"],
       "link": "https://codepen.io/belwerks/pen/NPKoPKm",
@@ -36,6 +57,20 @@
       "desc": "Proof-of-concept for a flexible grid system built using Flexbox, featuring multiple column sizes and levels of nesting. Built to compare with the Grid alternative."
     },
     {
+      "id": "cards",
+      "tags": ["Prototype"],
+      "link": "https://codepen.io/belwerks/pen/KKjRyQE",
+      "title": "Card Components Example",
+      "desc": "Basic card components with single or multiple inner links and optional call-to-action. Based on Heydon Pickering's 'Inclusive Components' to show a keyboard and screen reader friendly structure."
+    },
+    {
+      "id": "hire-punks",
+      "tags": ["Writing"],
+      "link": "https://medium.com/@belwerks/hire-more-punks-3ca97114574",
+      "title": "'Hire More Punks' Blog Post",
+      "desc": "A tongue-in-cheek blog post on Medium about hiring punks to mitigate many cultural issues within 'big tech'. Written in 2019 while working as a hiring manager and partnered with a technical recruiter."
+    },
+    {
       "id": "pokeball",
       "tags": ["Tinkering"],
       "link": "https://codepen.io/belwerks/pen/abvbPVE",
@@ -43,11 +78,11 @@
       "desc": "Playing with SVG and CSS animation to bring a simple Pokéball graphic to life. Try hovering and clicking on the ball to see the whole thing in action."
     },
     {
-      "id": "whats-up",
-      "tags": ["Personal Project"],
-      "link": "https://github.com/stephenbelyea/whats-up",
-      "title": "What's Up Mini App",
-      "desc": "Single-page reference to collect listings of multiple events venues around Kitchener-Waterloo for the current date. Many links have changed formatting, but you can still check out the GitHub Pages static site from the repo."
+      "id": "stopgap",
+      "tags": ["Client Project"],
+      "link": "https://stopgap.ca/",
+      "title": "StopGap Website",
+      "desc": "Website built as sole-developer freelance work for the Toronto-based StopGap Foundation. End of a personal era of working with WordPress for web development, circa 2016/17."
     }
   ]
 }

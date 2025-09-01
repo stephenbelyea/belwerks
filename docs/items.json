@@ -1,0 +1,53 @@
+{
+  "items": [
+    {
+      "id": "scatterbrain",
+      "tags": ["Personal Project"],
+      "link": "https://github.com/stephenbelyea/scatter-brain",
+      "title": "ScatterBrain Mini App",
+      "desc": "Points-based to-do app built on custom Sanity.io data structure to help with household chores and daily tasks for the kids. Also see the repo's hosted version on GitHub Pages."
+    },
+    {
+      "id": "table-api",
+      "tags": ["Prototype"],
+      "link": "https://codesandbox.io/p/sandbox/hungry-snowflake-3ppg2m",
+      "title": "Table Component API Design",
+      "desc": "Early stages of React component architecture and API design for a data-table with additional scroll and overflow features while retaining HTML attribute passing for row and cell child elements."
+    },
+    {
+      "id": "heynova-blog",
+      "tags": ["Writing"],
+      "link": "https://heynova.io/blog/",
+      "title": "Hey Nova Blog",
+      "desc": "Multiple accessibility-focused blog posts written for Hey Nova agency over multiple years, before and during period of working on the team."
+    },
+    {
+      "id": "grid-grid",
+      "tags": ["Prototype"],
+      "link": "https://codepen.io/belwerks/pen/NPKoPKm",
+      "title": "Grid System with CSS Grid",
+      "desc": "Proof-of-concept for a flexible grid system built using CSS Grid, featuring multiple column sizes and levels of nesting. Built to compare with the Flexbox alternative."
+    },
+    {
+      "id": "grid-flexbox",
+      "tags": ["Prototype"],
+      "link": "https://codepen.io/belwerks/pen/MYgPEGd",
+      "title": "Grid System with Flexbox",
+      "desc": "Proof-of-concept for a flexible grid system built using Flexbox, featuring multiple column sizes and levels of nesting. Built to compare with the Grid alternative."
+    },
+    {
+      "id": "pokeball",
+      "tags": ["Tinkering"],
+      "link": "https://codepen.io/belwerks/pen/abvbPVE",
+      "title": "Animated Pokéball SVG",
+      "desc": "Playing with SVG and CSS animation to bring a simple Pokéball graphic to life. Try hovering and clicking on the ball to see the whole thing in action."
+    },
+    {
+      "id": "whats-up",
+      "tags": ["Personal Project"],
+      "link": "https://github.com/stephenbelyea/whats-up",
+      "title": "What's Up Mini App",
+      "desc": "Single-page reference to collect listings of multiple events venues around Kitchener-Waterloo for the current date. Many links have changed formatting, but you can still check out the GitHub Pages static site from the repo."
+    }
+  ]
+}

@@ -148,121 +148,8 @@
               browser tab.</small
             >
           </p>
-          <div class="items">
-            <article class="item scatterbrain">
-              <p class="tags">Personal Project</p>
-              <h3>
-                <a
-                  href="https://github.com/stephenbelyea/scatter-brain"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  ><span>ScatterBrain Mini App</span></a
-                >
-              </h3>
-              <p class="desc">
-                Points-based to-do app built on custom Sanity.io data structure
-                to help with household chores and daily tasks for the kids. Also
-                see the repo's hosted version on GitHub Pages.
-              </p>
-            </article>
-            <article class="item table-api">
-              <p class="tags">Prototype</p>
-              <h3>
-                <a
-                  href="https://codesandbox.io/p/sandbox/hungry-snowflake-3ppg2m"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  ><span>Table Component API Design</span></a
-                >
-              </h3>
-              <p class="desc">
-                Early stages of React component architecture and API design for
-                a data-table with additional scroll and overflow features while
-                retaining HTML attribute passing for row and cell child
-                elements.
-              </p>
-            </article>
-            <article class="item heynova-blog">
-              <p class="tags">Writing</p>
-              <h3>
-                <a
-                  href="https://heynova.io/blog/"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  ><span>Hey Nova Blog</span></a
-                >
-              </h3>
-              <p class="desc">
-                Multiple accessibility-focused blog posts written for Hey Nova
-                agency over multiple years, before and during period of working
-                on the team.
-              </p>
-            </article>
-            <article class="item grid-grid">
-              <p class="tags">Prototype</p>
-              <h3>
-                <a
-                  href="https://codepen.io/belwerks/pen/NPKoPKm"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  ><span>Grid System with CSS Grid</span></a
-                >
-              </h3>
-              <p class="desc">
-                Proof-of-concept for a flexible grid system built using CSS
-                Grid, featuring multiple column sizes and levels of nesting.
-                Built to compare with the Flexbox alternative.
-              </p>
-            </article>
-            <article class="item grid-flexbox">
-              <p class="tags">Prototype</p>
-              <h3>
-                <a
-                  href="https://codepen.io/belwerks/pen/MYgPEGd"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  ><span>Grid System with Flexbox</span></a
-                >
-              </h3>
-              <p class="desc">
-                Proof-of-concept for a flexible grid system built using Flexbox,
-                featuring multiple column sizes and levels of nesting. Built to
-                compare with the Grid alternative.
-              </p>
-            </article>
-            <article class="item pokeball">
-              <p class="tags">Tinkering</p>
-              <h3>
-                <a
-                  href="https://codepen.io/belwerks/pen/abvbPVE"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  ><span>Animated Pokéball SVG</span></a
-                >
-              </h3>
-              <p class="desc">
-                Playing with SVG and CSS animation to bring a simple Pokéball
-                graphic to life. Try hovering and clicking on the ball to see
-                the whole thing in action.
-              </p>
-            </article>
-            <article class="item whats-up">
-              <p class="tags">Personal Project</p>
-              <h3>
-                <a
-                  href="https://github.com/stephenbelyea/whats-up"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  ><span>What's Up Mini App</span></a
-                >
-              </h3>
-              <p class="desc">
-                Single-page reference to collect listings of multiple events
-                venues around Kitchener-Waterloo for the current date. Many
-                links have changed formatting, but you can still check out the
-                GitHub Pages static site from the repo.
-              </p>
-            </article>
+          <div class="items" id="items">
+            <!-- Items dynamically render here... -->
           </div>
         </section>
       </main>
@@ -275,5 +162,6 @@
         </p>
       </footer>
     </div>
+    <script src="/scripts/render-items.js"></script>
   </body>
 </html>
